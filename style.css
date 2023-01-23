@@ -1,0 +1,13 @@
+.logo-smint {
+    width: 15%;
+}
+
+body {
+    background-image: url(/img/lomnnn.jpg);
+    background-attachment: fixed;
+}
+
+.pie {
+    background-color: aliceblue; 
+    border-radius: 8px;
+}
