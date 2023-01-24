@@ -5,9 +5,26 @@
 body {
     background-image: url(/img/lomnnn.jpg);
     background-attachment: fixed;
+    background-size: cover;
 }
 
 .pie {
-    background-color: aliceblue; 
+    background-color: aliceblue;
+    border-radius: 8px;
+}
+
+.active2 {
+    color: black;
+}
+
+.negro {
+    color: rgb(95, 95, 95);
+}
+
+.negro:hover {
+    color: rgb(158, 158, 158);
+}
+
+.radio {
     border-radius: 8px;
 }
