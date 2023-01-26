@@ -2,538 +2,161 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>We hate SMINTS</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>We hate SMINTS</title>
 </head>
 
 <body>
-    <header class="p-3 text-bg-light">
-        <nav class="navbar navbar-expand-lg navbar-dark " aria-label="Offcanvas navbar large">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img class="logo-smint" src="/img/Smint_Logo.svg.png"
-                        alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
-                    aria-labelledby="offcanvasNavbar2Label">
+  <header class="p-3 text-bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark " aria-label="Offcanvas navbar large">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img class="logo-smint" src="/img/Smint_Logo.svg.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+          aria-controls="offcanvasNavbar2">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
+          aria-labelledby="offcanvasNavbar2Label">
 
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a class="nav-link negro" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link negro" href="galeria.html">Galeria</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active2" href="blog.html">Blog</a>
-                            </li>
-                        </ul>
-                        <form class="d-flex mt-3 mt-lg-0" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Buscar denuncias"
-                                aria-label="Buscar denunciasº">
-                            <button class="btn btn-outline-success" type="submit">Login</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <main class="container">
-        <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
-            <div class="col-md-6 px-0">
-                <h1 class="display-4 fst-italic">Title of a longer featured blog post</h1>
-                <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and
-                    efficiently about what’s most interesting in this post’s contents.</p>
-                <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
-            </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link negro" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link negro" href="galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active2" href="blog.html">Blog</a>
+              </li>
+            </ul>
+            <form class="d-flex mt-3 mt-lg-0" action="login.html" method="get" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar denuncias"
+                  aria-label="Buscar denunciasº">
+              <input type="submit" value="Login">
+          </form>
+          </div>
         </div>
+      </div>
+    </nav>
+  </header>
 
-        <div class="row mb-2">
-            <div class="col-md-6">
-                <div
-                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                    <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-primary">World</strong>
-                        <h3 class="mb-0">Featured post</h3>
-                        <div class="mb-1 text-muted">Nov 12</div>
-                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural
-                            lead-in to additional content.</p>
-                        <a href="#" class="stretched-link">Continue reading</a>
-                    </div>
-                    <div class="col-auto d-none d-lg-block">
-                        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg"
-                            role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
-                            focusable="false">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
-                                dy=".3em">Thumbnail</text>
-                        </svg>
+  <main class="container mt-3">
+    <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
+      <div class="col-md-6 px-0">
+        <h1 class="display-4 fst-italic">Resolviendo el caso Smints</h1>
+        <p class="lead my-3">En este blog se redactaran todos los sucesos relacionados con el caso de Smint, sin tapujos
+          y a todo detalle.</p>
+      </div>
+    </div>
 
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div
-                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                    <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-success">Design</strong>
-                        <h3 class="mb-0">Post title</h3>
-                        <div class="mb-1 text-muted">Nov 11</div>
-                        <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to
-                            additional content.</p>
-                        <a href="#" class="stretched-link">Continue reading</a>
-                    </div>
-                    <div class="col-auto d-none d-lg-block">
-                        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg"
-                            role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
-                            focusable="false">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
-                                dy=".3em">Thumbnail</text>
-                        </svg>
+    <div class="row g-5">
+      <div class="col-md-8">
 
-                    </div>
-                </div>
-            </div>
+        <article class="bg-light p-4 rounded blog-post">
+          <h2 class="blog-post-title mb-1">Sample blog post</h2>
+          <p class="blog-post-meta">3 de Septiembre, 2021 por Lewis</p>
+          <p>Finalmente RD ha perecido, su enfermedad le causo daños hasta el final, no tuvo ultimas palabras debido a
+            que era como un animal salvaje. También afecto a sus organos internos, vomitaba sangre. Estamos en unos
+            tiempos muy tristes.</p>
+          <p>Por otra parte resulta que el cadaver de hace un año del cual extrajimos las pruebas era Tom Yorke, aun no
+            sabemos porque ha acabado asi, pero es una gran incognita.</p>
+        </article>
+
+        <article class="bg-light p-4 blog-post">
+          <h2 class="blog-post-title mb-1">Fuerte Adicción</h2>
+          <p class="blog-post-meta">22 de Julio, 2021 por Lewis
+
+          <p>Ha pasado más de un año desde la última publicación, han ocurrido muchas cosas, no hubo manera de presentar
+            la denuncia, mas gente ha muerto por causas "desconocidas" y gran parte de la población se ha vuelto
+            dependiente de estar substancias a causa de un aumento de los agentes adictivos en el producto, dentro de
+            este grupo entra DR, quien es objeto de preocupación del grupo. Esta empeorando rapidamente, no tenemos
+            ninguna manera de remediar el mono que tiene, i segun hemos observado en otros enfermos, puede llegar a
+            volverse agresivo hacia nosotros.</p>
+          <p>Por otra parte, hemos destapado lo que se conoce como 'el accidente del 97', lo llaman accidente pero fue
+            completamente intencional. Según los informes de un tal Robinson transcurrió de la siguiente manera:</p>
+          <p>>Fábrica del norte.</p>
+          <p>>Unos 300 trabajadores descubren la verdad detras de la receta de los smints y los planes de los Smints.
+          </p>
+          <p>>En los proximos dias explota un contenedor en el qual habia extrañas cantidades de materiales radiactivos,
+            los mismo que encontramos el año pasado en aquel cadaver.</p>
+          <p>>Lo encubren como accidente laboral oculta la parte de los materiales radioactivos.</p>
+
+          <p>Gracias a este información estamos mas cerca de descubrir la verdad, también ha sido posible encontrar a la
+            mayoría de los familiares de los afectados en el genocidio del 97 y se les ha contado lo que ocurrió
+            realmente aquel dia.</p>
+        </article>
+
+        <article class="bg-light p-4 rounded-bottom mb-4 blog-post">
+          <h2 class="blog-post-title mb-1">Quimicos descubiertos</h2>
+          <p class="blog-post-meta">12 Enero, 2020 por DR</p>
+
+          <p>Durante el transcurso de las últimas semanas falleció una persona sin identificar a causa de una
+            intoxicación por
+            radiación, una muerte muy misteriosa ya que nadie ha sido capaz de determinar que ocurrió. El causante era
+            desconocido hasta hace unas pocas horas, precisamente hasta que un miembro de nuestra asociación se
+            consiguió acceso al cadáver, debido a que es forense, i consiguió unas muestras. Le entrego estas muestras a
+            los cientícos de nuestros laboratorios para su correcta examinación debido a que la mayoría de medios están
+            censurados desde las sombras, i, en caso de que el resutado fuera dañino nunca no comunicarían. Nuestros
+            científicos investigaron las muestras y encontraron altas similitudes en los compuestos toxicos de su cuerpo
+            y los ingredientes de los Smints.</p>
+          <p>
+            Entre los componentes se encontraron:
+          </p>
+          <ul>
+            <li>Radón</li>
+            <li>Carbono</li>
+            <li>Tritio</li>
+          </ul>
+          <p>Todo esto implica que verdaderamente los smints si que llevan materiales radiactivos, ya tenemos las prueba
+            que necesitabamos para tomar acciones legales.</p>
+          <p>Aún después de todo esto no consigo superar mi adicción, me entristece.</p>
+          <p>- DR - </p>
+        </article>
+
+
+      </div>
+
+      <div class="col-md-4 mb-5">
+        <div class="position-sticky" style="top: 2rem;">
+          <div class="p-4 mb-3 bg-light rounded">
+            <h4 class="fst-italic">Sobre nosotros</h4>
+            <p class="mb-0">Actualmente somos mas de 150 personas en la organización. Cada día estamos mas cerca de la
+              verdad.</p>
+          </div>
+
+          <div class="bg-light p-4 rounded p-4">
+            <h4 class="fst-italic">Cajón de recuerdos</h4>
+            <ol class="list-unstyled mb-0">
+              <li><a href="#">Marzo 2022</a></li>
+              <li><a href="#">Septiembre 2021</a></li>
+              <li><a href="#">Julio 2021</a></li>
+              <li><a href="#">Enero 2020</a></li>
+            </ol>
+          </div>
         </div>
+      </div>
+    </div>
 
-        <div class="row g-5">
-            <div class="col-md-8">
-                <h3 class="pb-4 mb-4 fst-italic border-bottom">
-                    From the Firehose
-                </h3>
+  </main>
 
-                <article class="blog-post">
-                    <h2 class="blog-post-title mb-1">Sample blog post</h2>
-                    <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
-
-                    <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap.
-                        Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
-                    <hr>
-                    <p>This is some additional paragraph placeholder content. It has been written to fill the available
-                        space and show how a longer snippet of text affects the surrounding content. We'll repeat it
-                        often to keep the demonstration flowing, so be on the lookout for this exact same string of
-                        text.</p>
-                    <h2>Blockquotes</h2>
-                    <p>This is an example blockquote in action:</p>
-                    <blockquote class="blockquote">
-                        <p>Quoted text goes here.</p>
-                    </blockquote>
-                    <p>This is some additional paragraph placeholder content. It has been written to fill the available
-                        space and show how a longer snippet of text affects the surrounding content. We'll repeat it
-                        often to keep the demonstration flowing, so be on the lookout for this exact same string of
-                        text.</p>
-                    <h3>Example lists</h3>
-                    <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the
-                        other highly repetitive body text used throughout. This is an example unordered list:</p>
-                    <ul>
-                        <li>First list item</li>
-                        <li>Second list item with a longer description</li>
-                        <li>Third list item to close it out</li>
-                    </ul>
-                    <p>And this is an ordered list:</p>
-                    <ol>
-                        <li>First list item</li>
-                        <li>Second list item with a longer description</li>
-                        <li>Third list item to close it out</li>
-                    </ol>
-                    <p>And this is a definition list:</p>
-                    <dl>
-                        <dt>HyperText Markup Language (HTML)</dt>
-                        <dd>The language used to describe and define the content of a Web page</dd>
-                        <dt>Cascading Style Sheets (CSS)</dt>
-                        <dd>Used to describe the appearance of Web content</dd>
-                        <dt>JavaScript (JS)</dt>
-                        <dd>The programming language used to build advanced Web sites and applications</dd>
-                    </dl>
-                    <h2>Inline HTML elements</h2>
-                    <p>HTML defines a long list of available inline tags, a complete list of which can be found on the
-                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer
-                            Network</a>.</p>
-                    <ul>
-                        <li><strong>To bold text</strong>, use <code
-                                class="language-plaintext highlighter-rouge">&lt;strong&gt;</code>.</li>
-                        <li><em>To italicize text</em>, use <code
-                                class="language-plaintext highlighter-rouge">&lt;em&gt;</code>.</li>
-                        <li>Abbreviations, like <abbr title="HyperText Markup Language">HTML</abbr> should use <code
-                                class="language-plaintext highlighter-rouge">&lt;abbr&gt;</code>, with an optional <code
-                                class="language-plaintext highlighter-rouge">title</code> attribute for the full phrase.
-                        </li>
-                        <li>Citations, like <cite>— Mark Otto</cite>, should use <code
-                                class="language-plaintext highlighter-rouge">&lt;cite&gt;</code>.</li>
-                        <li><del>Deleted</del> text should use <code
-                                class="language-plaintext highlighter-rouge">&lt;del&gt;</code> and <ins>inserted</ins>
-                            text should use <code class="language-plaintext highlighter-rouge">&lt;ins&gt;</code>.</li>
-                        <li>Superscript <sup>text</sup> uses <code
-                                class="language-plaintext highlighter-rouge">&lt;sup&gt;</code> and subscript
-                            <sub>text</sub> uses <code class="language-plaintext highlighter-rouge">&lt;sub&gt;</code>.
-                        </li>
-                    </ul>
-                    <p>Most of these elements are styled by browsers with few modifications on our part.</p>
-                    <h2>Heading</h2>
-                    <p>This is some additional paragraph placeholder content. It has been written to fill the available
-                        space and show how a longer snippet of text affects the surrounding content. We'll repeat it
-                        often to keep the demonstration flowing, so be on the lookout for this exact same string of
-                        text.</p>
-                    <h3>Sub-heading</h3>
-                    <p>This is some additional paragraph placeholder content. It has been written to fill the available
-                        space and show how a longer snippet of text affects the surrounding content. We'll repeat it
-                        often to keep the demonstration flowing, so be on the lookout for this exact same string of
-                        text.</p>
-                    <pre><code>Example code block</code></pre>
-                    <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the
-                        other highly repetitive body text used throughout.</p>
-                </article>
-
-                <article class="blog-post">
-                    <h2 class="blog-post-title mb-1">Another blog post</h2>
-                    <p class="blog-post-meta">December 23, 2020 by <a href="#">Jacob</a></p>
-
-                    <p>This is some additional paragraph placeholder content. It has been written to fill the available
-                        space and show how a longer snippet of text affects the surrounding content. We'll repeat it
-                        often to keep the demonstration flowing, so be on the lookout for this exact same string of
-                        text.</p>
-                    <blockquote>
-                        <p>Longer quote goes here, maybe with some <strong>emphasized text</strong> in the middle of it.
-                        </p>
-                    </blockquote>
-                    <p>This is some additional paragraph placeholder content. It has been written to fill the available
-                        space and show how a longer snippet of text affects the surrounding content. We'll repeat it
-                        often to keep the demonstration flowing, so be on the lookout for this exact same string of
-                        text.</p>
-                    <h3>Example table</h3>
-                    <p>And don't forget about tables in these posts:</p>
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Name</th>
-                                <th>Upvotes</th>
-                                <th>Downvotes</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Alice</td>
-                                <td>10</td>
-                                <td>11</td>
-                            </tr>
-                            <tr>
-                                <td>Bob</td>
-                                <td>4</td>
-                                <td>3</td>
-                            </tr>
-                            <tr>
-                                <td>Charlie</td>
-                                <td>7</td>
-                                <td>9</td>
-                            </tr>
-                        </tbody>
-                        <tfoot>
-                            <tr>
-                                <td>Totals</td>
-                                <td>21</td>
-                                <td>23</td>
-                            </tr>
-                        </tfoot>
-                    </table>
-
-                    <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the
-                        other highly repetitive body text used throughout.</p>
-                </article>
-
-                <article class="blog-post">
-                    <h2 class="blog-post-title mb-1">New feature</h2>
-                    <p class="blog-post-meta">December 14, 2020 by <a href="#">Chris</a></p>
-
-                    <p>This is some additional paragraph placeholder content. It has been written to fill the available
-                        space and show how a longer snippet of text affects the surrounding content. We'll repeat it
-                        often to keep the demonstration flowing, so be on the lookout for this exact same string of
-                        text.</p>
-                    <ul>
-                        <li>First list item</li>
-                        <li>Second list item with a longer description</li>
-                        <li>Third list item to close it out</li>
-                    </ul>
-                    <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the
-                        other highly repetitive body text used throughout.</p>
-                </article>
-
-                <nav class="blog-pagination" aria-label="Pagination">
-                    <a class="btn btn-outline-primary rounded-pill" href="#">Older</a>
-                    <a class="btn btn-outline-secondary rounded-pill disabled">Newer</a>
-                </nav>
-
-            </div>
-
-            <div class="col-md-4">
-                <div class="position-sticky" style="top: 2rem;">
-                    <div class="p-4 mb-3 bg-light rounded">
-                        <h4 class="fst-italic">About</h4>
-                        <p class="mb-0">Customize this section to tell your visitors a little bit about your
-                            publication, writers, content, or something else entirely. Totally up to you.</p>
-                    </div>
-
-                    <div class="p-4">
-                        <h4 class="fst-italic">Archives</h4>
-                        <ol class="list-unstyled mb-0">
-                            <li><a href="#">March 2021</a></li>
-                            <li><a href="#">February 2021</a></li>
-                            <li><a href="#">January 2021</a></li>
-                            <li><a href="#">December 2020</a></li>
-                            <li><a href="#">November 2020</a></li>
-                            <li><a href="#">October 2020</a></li>
-                            <li><a href="#">September 2020</a></li>
-                            <li><a href="#">August 2020</a></li>
-                            <li><a href="#">July 2020</a></li>
-                            <li><a href="#">June 2020</a></li>
-                            <li><a href="#">May 2020</a></li>
-                            <li><a href="#">April 2020</a></li>
-                        </ol>
-                    </div>
-
-                    <div class="p-4">
-                        <h4 class="fst-italic">Elsewhere</h4>
-                        <ol class="list-unstyled">
-                            <li><a href="#">GitHub</a></li>
-                            <li><a href="#">Twitter</a></li>
-                            <li><a href="#">Facebook</a></li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </main>
-
-    <footer class="py-3 my-0 pie">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
-            <li class="nav-item"><a href="galeria.html" class="nav-link px-2 text-muted">Galeria</a></li>
-            <li class="nav-item"><a href="blog<main class="container">
-                <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
-                  <div class="col-md-6 px-0">
-                    <h1 class="display-4 fst-italic">Title of a longer featured blog post</h1>
-                    <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
-                    <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
-                  </div>
-                </div>
-              
-                <div class="row mb-2">
-                  <div class="col-md-6">
-                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                      <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-primary">World</strong>
-                        <h3 class="mb-0">Featured post</h3>
-                        <div class="mb-1 text-muted">Nov 12</div>
-                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="stretched-link">Continue reading</a>
-                      </div>
-                      <div class="col-auto d-none d-lg-block">
-                        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-              
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                      <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-success">Design</strong>
-                        <h3 class="mb-0">Post title</h3>
-                        <div class="mb-1 text-muted">Nov 11</div>
-                        <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="stretched-link">Continue reading</a>
-                      </div>
-                      <div class="col-auto d-none d-lg-block">
-                        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-              
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              
-                <div class="row g-5">
-                  <div class="col-md-8">
-                    <h3 class="pb-4 mb-4 fst-italic border-bottom">
-                      From the Firehose
-                    </h3>
-              
-                    <article class="blog-post">
-                      <h2 class="blog-post-title mb-1">Sample blog post</h2>
-                      <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
-              
-                      <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
-                      <hr>
-                      <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
-                      <h2>Blockquotes</h2>
-                      <p>This is an example blockquote in action:</p>
-                      <blockquote class="blockquote">
-                        <p>Quoted text goes here.</p>
-                      </blockquote>
-                      <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
-                      <h3>Example lists</h3>
-                      <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout. This is an example unordered list:</p>
-                      <ul>
-                        <li>First list item</li>
-                        <li>Second list item with a longer description</li>
-                        <li>Third list item to close it out</li>
-                      </ul>
-                      <p>And this is an ordered list:</p>
-                      <ol>
-                        <li>First list item</li>
-                        <li>Second list item with a longer description</li>
-                        <li>Third list item to close it out</li>
-                      </ol>
-                      <p>And this is a definition list:</p>
-                      <dl>
-                        <dt>HyperText Markup Language (HTML)</dt>
-                        <dd>The language used to describe and define the content of a Web page</dd>
-                        <dt>Cascading Style Sheets (CSS)</dt>
-                        <dd>Used to describe the appearance of Web content</dd>
-                        <dt>JavaScript (JS)</dt>
-                        <dd>The programming language used to build advanced Web sites and applications</dd>
-                      </dl>
-                      <h2>Inline HTML elements</h2>
-                      <p>HTML defines a long list of available inline tags, a complete list of which can be found on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
-                      <ul>
-                        <li><strong>To bold text</strong>, use <code class="language-plaintext highlighter-rouge">&lt;strong&gt;</code>.</li>
-                        <li><em>To italicize text</em>, use <code class="language-plaintext highlighter-rouge">&lt;em&gt;</code>.</li>
-                        <li>Abbreviations, like <abbr title="HyperText Markup Language">HTML</abbr> should use <code class="language-plaintext highlighter-rouge">&lt;abbr&gt;</code>, with an optional <code class="language-plaintext highlighter-rouge">title</code> attribute for the full phrase.</li>
-                        <li>Citations, like <cite>— Mark Otto</cite>, should use <code class="language-plaintext highlighter-rouge">&lt;cite&gt;</code>.</li>
-                        <li><del>Deleted</del> text should use <code class="language-plaintext highlighter-rouge">&lt;del&gt;</code> and <ins>inserted</ins> text should use <code class="language-plaintext highlighter-rouge">&lt;ins&gt;</code>.</li>
-                        <li>Superscript <sup>text</sup> uses <code class="language-plaintext highlighter-rouge">&lt;sup&gt;</code> and subscript <sub>text</sub> uses <code class="language-plaintext highlighter-rouge">&lt;sub&gt;</code>.</li>
-                      </ul>
-                      <p>Most of these elements are styled by browsers with few modifications on our part.</p>
-                      <h2>Heading</h2>
-                      <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
-                      <h3>Sub-heading</h3>
-                      <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
-                      <pre><code>Example code block</code></pre>
-                      <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
-                    </article>
-              
-                    <article class="blog-post">
-                      <h2 class="blog-post-title mb-1">Another blog post</h2>
-                      <p class="blog-post-meta">December 23, 2020 by <a href="#">Jacob</a></p>
-              
-                      <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
-                      <blockquote>
-                        <p>Longer quote goes here, maybe with some <strong>emphasized text</strong> in the middle of it.</p>
-                      </blockquote>
-                      <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
-                      <h3>Example table</h3>
-                      <p>And don't forget about tables in these posts:</p>
-                      <table class="table">
-                        <thead>
-                          <tr>
-                            <th>Name</th>
-                            <th>Upvotes</th>
-                            <th>Downvotes</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>Alice</td>
-                            <td>10</td>
-                            <td>11</td>
-                          </tr>
-                          <tr>
-                            <td>Bob</td>
-                            <td>4</td>
-                            <td>3</td>
-                          </tr>
-                          <tr>
-                            <td>Charlie</td>
-                            <td>7</td>
-                            <td>9</td>
-                          </tr>
-                        </tbody>
-                        <tfoot>
-                          <tr>
-                            <td>Totals</td>
-                            <td>21</td>
-                            <td>23</td>
-                          </tr>
-                        </tfoot>
-                      </table>
-              
-                      <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
-                    </article>
-              
-                    <article class="blog-post bg-light">
-                      <h2 class="blog-post-title mb-1">New feature</h2>
-                      <p class="blog-post-meta">December 14, 2020 by <a href="#">Chris</a></p>
-              
-                      <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
-                      <ul>
-                        <li>First list item</li>
-                        <li>Second list item with a longer description</li>
-                        <li>Third list item to close it out</li>
-                      </ul>
-                      <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
-                    </article>
-              
-                    <nav class="blog-pagination" aria-label="Pagination">
-                      <a class="btn btn-outline-primary rounded-pill" href="#">Older</a>
-                      <a class="btn btn-outline-secondary rounded-pill disabled">Newer</a>
-                    </nav>
-              
-                  </div>
-              
-                  <div class="col-md-4 bg-light">
-                    <div class="position-sticky" style="top: 2rem;">
-                      <div class="p-4 mb-3 bg-light rounded">
-                        <h4 class="fst-italic">About</h4>
-                        <p class="mb-0">Customize this section to tell your visitors a little bit about your publication, writers, content, or something else entirely. Totally up to you.</p>
-                      </div>
-              
-                      <div class="p-4">
-                        <h4 class="fst-italic">Archives</h4>
-                        <ol class="list-unstyled mb-0">
-                          <li><a href="#">March 2021</a></li>
-                          <li><a href="#">February 2021</a></li>
-                          <li><a href="#">January 2021</a></li>
-                          <li><a href="#">December 2020</a></li>
-                          <li><a href="#">November 2020</a></li>
-                          <li><a href="#">October 2020</a></li>
-                          <li><a href="#">September 2020</a></li>
-                          <li><a href="#">August 2020</a></li>
-                          <li><a href="#">July 2020</a></li>
-                          <li><a href="#">June 2020</a></li>
-                          <li><a href="#">May 2020</a></li>
-                          <li><a href="#">April 2020</a></li>
-                        </ol>
-                      </div>
-              
-                      <div class="p-4">
-                        <h4 class="fst-italic">Elsewhere</h4>
-                        <ol class="list-unstyled">
-                          <li><a href="#">GitHub</a></li>
-                          <li><a href="#">Twitter</a></li>
-                          <li><a href="#">Facebook</a></li>
-                        </ol>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              
-              </main>.html" class="nav-link px-2 text-muted">Blog</a></li>
-        </ul>
-        <p class="text-center text-muted">© 2023 Smints Haters, Inc</p>
-    </footer>
+  <footer class="py-3 my-0 pie">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="galeria.html" class="nav-link px-2 text-muted">Galeria</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Blog</a></li>
+    </ul>
+    <p class="text-center text-muted">© 2023 Smints Haters, Inc</p>
+  </footer>
 
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
+  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
 </html>
